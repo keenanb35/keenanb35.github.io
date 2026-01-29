@@ -6,33 +6,40 @@
   </head>
 
   <body>
-    <h1>Birdwatching</h1>
+    <header>
+      <h1>Birdwatching</h1>
+      Home Get started Photos Gear Forum
+    </header>
 
-    Home Get started Photos Gear Forum
+    <main>
+      <article>
+        <h2>Welcome</h2>
 
-    <h2>Welcome</h2>
+        <p>
+          Welcome to our fake birdwatching site. If this were a real site, it
+          would be the ideal place to come to learn more about birdwatching.
+        </p>
 
-    <p>
-      Welcome to our fake birdwatching site. If this were a real site, it
-      would be the ideal place to come to learn more about birdwatching.
-    </p>
+        <p>
+          So don't waste time! Get what you need, then turn off that computer and
+          get out into the great outdoors!
+        </p>
+      </article>
 
-    <p>
-      So don't waste time! Get what you need, then turn off that computer and
-      get out into the great outdoors!
-    </p>
+      <aside>
+        <h2>Favorite photos</h2>
+        <!-- Link images here. -->
+      </aside>
+    </main>
 
-    <h2>Favorite photos</h2>
-
-    <!-- Link images here. -->
-
-    <p>
-      This fake website example is CC0 — any part of this code may be reused.
-    </p>
-
-    <p>
-      <a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a>
-      by Lorc.
-    </p>
+    <footer>
+      <p>
+        This fake website example is CC0 — any part of this code may be reused.
+      </p>
+      <p>
+        <a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a>
+        by Lorc.
+      </p>
+    </footer>
   </body>
 </html>
