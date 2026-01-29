@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <title>Birdwatching</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700"
+      rel="stylesheet" />
   </head>
 
   <body>
@@ -29,7 +33,10 @@
 
         <p>
           Welcome to our fake birdwatching site. If this were a real site, it
-          would be the ideal place to come to learn more about birdwatching.
+          would be the ideal place to come to learn more about birdwatching,
+          whether you are a beginner looking to learn how to get into birding, or
+          an expert wanting to share ideas, tips, and photos with other
+          like-minded people.
         </p>
 
         <p>
@@ -40,14 +47,39 @@
 
       <aside>
         <h2>Favorite photos</h2>
-        <!-- Link images here. -->
+
+        <a href="favorite-bird-1.jpg">
+          <img
+            src="favorite-bird-1_th.jpg"
+            alt="Small bird sitting on a branch" />
+        </a>
+
+        <a href="favorite-bird-2.jpg">
+          <img
+            src="favorite-bird-2_th.jpg"
+            alt="Bird flying in the sky" />
+        </a>
+
+        <a href="favorite-bird-3.jpg">
+          <img
+            src="favorite-bird-3_th.jpg"
+            alt="Colorful bird close-up" />
+        </a>
+
+        <a href="favorite-bird-4.jpg">
+          <img
+            src="favorite-bird-4_th.jpg"
+            alt="Bird standing near water" />
+        </a>
       </aside>
     </main>
 
     <footer>
       <p>
-        This fake website example is CC0 — any part of this code may be reused.
+        This fake website example is CC0 — any part of this code may be reused
+        in any way you wish. Original example written by Chris Mills, 2016.
       </p>
+
       <p>
         <a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a>
         by Lorc.
