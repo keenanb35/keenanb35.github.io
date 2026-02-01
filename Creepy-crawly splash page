@@ -1,0 +1,46 @@
+<!--
+    Name: Keenan
+    File: index.html
+    Date: 01 February 2026
+    Description: Base HTML structure for Creepy Crawly and Planet Data assignment.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Creepy Crawly Splash Page</title>
+</head>
+<body>
+
+<header>
+    <h1>Creepy Crawlies</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#ants">Ants</a></li>
+        <li><a href="#beetles">Beetles</a></li>
+        <li><a href="#spiders">Spiders</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="ants">
+        <h2>Ants</h2>
+        <p>Ants are social insects found worldwide.</p>
+    </section>
+
+    <section id="beetles">
+        <h2>Beetles</h2>
+        <p>Beetles are the largest group of insects.</p>
+    </section>
+
+    <section id="spiders">
+        <h2>Spiders</h2>
+        <p>Spiders are arachnids, not insects.</p>
+    </section>
+</main>
+
+</body>
+</html>
