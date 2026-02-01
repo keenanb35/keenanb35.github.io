@@ -2,7 +2,7 @@
     Name: Keenan
     File: index.html
     Date: 01 February 2026
-    Description: Added header video with required attributes.
+    Description: Added images and bug icons to navigation and headings.
 -->
 
 <!DOCTYPE html>
@@ -17,34 +17,36 @@
     <video autoplay muted loop preload="auto">
         <source src="media/bug-eating-leaf.mp4" type="video/mp4">
     </video>
-    <h1>Creepy Crawlies</h1>
+    <h1>🐛 Creepy Crawlies</h1>
 </header>
 
 <nav>
     <ul>
-        <li><a href="#ants">Ants</a></li>
-        <li><a href="#beetles">Beetles</a></li>
-        <li><a href="#spiders">Spiders</a></li>
+        <li>🐜 <a href="#ants">Ants</a></li>
+        <li>🪲 <a href="#beetles">Beetles</a></li>
+        <li>🕷️ <a href="#spiders">Spiders</a></li>
     </ul>
 </nav>
 
 <main>
     <section id="ants">
-        <h2>Ants</h2>
+        <h2>🐜 Ants</h2>
+        <img src="images/ants.jpg" alt="Ants on the ground" width="250" height="180">
         <p>Ants are social insects found worldwide.</p>
     </section>
 
     <section id="beetles">
-        <h2>Beetles</h2>
+        <h2>🪲 Beetles</h2>
+        <img src="images/beetle.jpg" alt="A green beetle" width="250" height="180">
         <p>Beetles are the largest group of insects.</p>
     </section>
 
     <section id="spiders">
-        <h2>Spiders</h2>
+        <h2>🕷️ Spiders</h2>
+        <img src="images/spider.jpg" alt="A spider on a web" width="250" height="180">
         <p>Spiders are arachnids, not insects.</p>
     </section>
 </main>
 
 </body>
 </html>
-
