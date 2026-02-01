@@ -2,7 +2,7 @@
     Name: Keenan
     File: index.html
     Date: 01 February 2026
-    Description: Base HTML structure for Creepy Crawly and Planet Data assignment.
+    Description: Added header video with required attributes.
 -->
 
 <!DOCTYPE html>
@@ -14,6 +14,9 @@
 <body>
 
 <header>
+    <video autoplay muted loop preload="auto">
+        <source src="media/bug-eating-leaf.mp4" type="video/mp4">
+    </video>
     <h1>Creepy Crawlies</h1>
 </header>
 
@@ -44,3 +47,4 @@
 
 </body>
 </html>
+
