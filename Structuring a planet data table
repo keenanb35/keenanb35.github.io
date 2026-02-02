@@ -1,0 +1,20 @@
+<!--
+Name: Keenan
+File: planets.html
+Date: 01 February 2026
+Description: Base HTML structure for the planet data table.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Planet Data</title>
+</head>
+<body>
+
+    <h1>Planet Data</h1>
+
+</body>
+</html>
+
