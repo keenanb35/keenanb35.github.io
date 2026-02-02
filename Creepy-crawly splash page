@@ -2,14 +2,14 @@
     Name: Keenan
     File: index.html
     Date: 01 February 2026
-    Description: Added images and bug icons to navigation and headings.
+    Description: Added structured planet data table.
 -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Creepy Crawly Splash Page</title>
+    <title>Creepy Crawlies & Planets</title>
 </head>
 <body>
 
@@ -20,32 +20,43 @@
     <h1>🐛 Creepy Crawlies</h1>
 </header>
 
-<nav>
-    <ul>
-        <li>🐜 <a href="#ants">Ants</a></li>
-        <li>🪲 <a href="#beetles">Beetles</a></li>
-        <li>🕷️ <a href="#spiders">Spiders</a></li>
-    </ul>
-</nav>
-
 <main>
-    <section id="ants">
-        <h2>🐜 Ants</h2>
-        <img src="images/ants.jpg" alt="Ants on the ground" width="250" height="180">
-        <p>Ants are social insects found worldwide.</p>
-    </section>
+    <h2>🌍 Planet Data</h2>
 
-    <section id="beetles">
-        <h2>🪲 Beetles</h2>
-        <img src="images/beetle.jpg" alt="A green beetle" width="250" height="180">
-        <p>Beetles are the largest group of insects.</p>
-    </section>
+    <table>
+        <caption>Planetary Statistics</caption>
 
-    <section id="spiders">
-        <h2>🕷️ Spiders</h2>
-        <img src="images/spider.jpg" alt="A spider on a web" width="250" height="180">
-        <p>Spiders are arachnids, not insects.</p>
-    </section>
+        <colgroup>
+            <col style="border: 2px solid black;">
+            <col>
+            <col>
+            <col>
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th scope="col">Planet</th>
+                <th scope="col">Diameter (km)</th>
+                <th scope="col">Mass</th>
+                <th scope="col">Moons</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Mercury</th>
+                <td>4,879</td>
+                <td>0.33</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Venus</th>
+                <td>12,104</td>
+                <td>4.87</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
 </main>
 
 </body>
