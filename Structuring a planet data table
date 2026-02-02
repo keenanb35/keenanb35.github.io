@@ -2,7 +2,7 @@
 Name: Keenan
 File: planets.html
 Date: 01 February 2026
-Description: Base HTML structure for the planet data table.
+Description: Added table structure with caption and table headers.
 -->
 
 <!DOCTYPE html>
@@ -13,8 +13,27 @@ Description: Base HTML structure for the planet data table.
 </head>
 <body>
 
-    <h1>Planet Data</h1>
+<h1>Planet Data</h1>
+
+<table>
+    <caption>Planetary Data of the Solar System</caption>
+
+    <thead>
+        <tr>
+            <th scope="col">Planet</th>
+            <th scope="col">Mass (10²⁴kg)</th>
+            <th scope="col">Diameter (km)</th>
+            <th scope="col">Density (kg/m³)</th>
+            <th scope="col">Gravity (m/s²)</th>
+            <th scope="col">Length of Day (hours)</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    </tbody>
+</table>
 
 </body>
 </html>
+
 
