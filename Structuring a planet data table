@@ -1,8 +1,8 @@
 <!--
 Name: Keenan
 File: planets.html
-Date: 02 February 2026
-Description: Added terrestrial planet data rows.
+Date: 01 February 2026
+Description: Added Jovian planet groupings with rowspan and colspan.
 -->
 
 <!DOCTYPE html>
@@ -62,6 +62,42 @@ Description: Added terrestrial planet data rows.
             <td>3933</td>
             <td>3.7</td>
             <td>24.7</td>
+        </tr>
+
+        <tr>
+            <th scope="rowgroup" rowspan="4">Jovian planets</th>
+            <th scope="rowgroup" rowspan="2">Gas giants</th>
+            <th scope="row">Jupiter</th>
+            <td>1898</td>
+            <td>142984</td>
+            <td>1326</td>
+            <td>23.1</td>
+            <td>9.9</td>
+        </tr>
+        <tr>
+            <th scope="row">Saturn</th>
+            <td>568</td>
+            <td>120536</td>
+            <td>687</td>
+            <td>9.0</td>
+            <td>10.7</td>
+        </tr>
+        <tr>
+            <th scope="rowgroup" rowspan="2">Ice giants</th>
+            <th scope="row">Uranus</th>
+            <td>86.8</td>
+            <td>51118</td>
+            <td>1271</td>
+            <td>8.7</td>
+            <td>17.2</td>
+        </tr>
+        <tr>
+            <th scope="row">Neptune</th>
+            <td>102</td>
+            <td>49528</td>
+            <td>1638</td>
+            <td>11.0</td>
+            <td>16.1</td>
         </tr>
     </tbody>
 </table>
