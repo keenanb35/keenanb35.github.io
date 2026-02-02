@@ -1,63 +1,156 @@
 <!--
-    Name: Keenan
-    File: index.html
-    Date: 01 February 2026
-    Description: Added structured planet data table.
+Name: Keenan
+File: index.html
+Date: 01 February 2026
+Description: Creepy crawlies splash page featuring a header video, section images with captions, and navigation icons.
 -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Creepy Crawlies & Planets</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Creepy crawlies!</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>🪲 <a href="#beetles">Beetles</a></li>
+          <li>🐞 <a href="#true_bugs">True bugs</a></li>
+          <li>🦋 <a href="#butterflies_moths">Butterflies and moths</a></li>
+          <li>🦟 <a href="#flies_mosquitos">Flies and mosquitos</a></li>
+          <li>🐝 <a href="#bees_wasps_ants">Bees, wasps, and ants</a></li>
+          <li>🕷️ <a href="#spiders">Spiders</a></li>
+        </ul>
+      </nav>
 
-<header>
-    <video autoplay muted loop preload="auto">
-        <source src="media/bug-eating-leaf.mp4" type="video/mp4">
-    </video>
-    <h1>🐛 Creepy Crawlies</h1>
-</header>
+      <section>
+        <h1>Creepy-crawlies splash page!</h1>
 
-<main>
-    <h2>🌍 Planet Data</h2>
+        <video autoplay muted loop preload="auto">
+          <source src="bug_video_640.mp4" type="video/mp4">
+        </video>
 
-    <table>
-        <caption>Planetary Statistics</caption>
+        <p>
+          In casual language, people use “bugs” to mean all sorts of small
+          creepy-crawlies: insects, spiders, etc. However, “Bugs” (true bugs)
+          are actually just one order of insects (Hemiptera). This page
+          provides a summary of the main classes or groups of
+          creepy-crawlies.
+        </p>
+      </section>
+    </header>
 
-        <colgroup>
-            <col style="border: 2px solid black;">
-            <col>
-            <col>
-            <col>
-        </colgroup>
+    <main>
+      <section id="beetles">
+        <h2>🪲 Beetles (Coleoptera)</h2>
 
-        <thead>
-            <tr>
-                <th scope="col">Planet</th>
-                <th scope="col">Diameter (km)</th>
-                <th scope="col">Mass</th>
-                <th scope="col">Moons</th>
-            </tr>
-        </thead>
+        <figure>
+          <img src="beetle.png"
+               alt="A beetle showing hardened wing covers that protect its body"
+               width="250"
+               height="180">
+          <figcaption>Beetles are identified by their hardened protective wing covers.</figcaption>
+        </figure>
 
-        <tbody>
-            <tr>
-                <th scope="row">Mercury</th>
-                <td>4,879</td>
-                <td>0.33</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <th scope="row">Venus</th>
-                <td>12,104</td>
-                <td>4.87</td>
-                <td>0</td>
-            </tr>
-        </tbody>
-    </table>
-</main>
+        <p>
+          Beetles make up the largest order of insects, with more than
+          350,000 known species.
+        </p>
 
-</body>
+        <p class="copyright">Image credit via Wikimedia Commons.</p>
+      </section>
+
+      <section id="true_bugs">
+        <h2>🐞 True Bugs (Hemiptera)</h2>
+
+        <figure>
+          <img src="true_bug.jpg"
+               alt="A true bug displaying its piercing and sucking mouthparts"
+               width="250"
+               height="180">
+          <figcaption>True bugs feed using specialized piercing mouthparts.</figcaption>
+        </figure>
+
+        <p>
+          True bugs include insects such as stink bugs, aphids, and cicadas.
+        </p>
+
+        <p class="copyright">Image credit via Wikimedia Commons.</p>
+      </section>
+
+      <section id="butterflies_moths">
+        <h2>🦋 Butterflies & Moths (Lepidoptera)</h2>
+
+        <figure>
+          <img src="butterfly.jpg"
+               alt="A colorful butterfly resting on a flower"
+               width="250"
+               height="180">
+          <figcaption>Butterflies and moths have wings covered in tiny scales.</figcaption>
+        </figure>
+
+        <p>
+          Butterflies and moths are known for their colorful, scaled wings.
+        </p>
+
+        <p class="copyright">Image credit via Wikimedia Commons.</p>
+      </section>
+
+      <section id="flies_mosquitos">
+        <h2>🦟 Flies & Mosquitoes (Diptera)</h2>
+
+        <figure>
+          <img src="mosquito.jpg"
+               alt="A mosquito feeding using its long proboscis"
+               width="250"
+               height="180">
+          <figcaption>Mosquitoes are well known for spreading disease.</figcaption>
+        </figure>
+
+        <p>
+          Diptera have only one pair of wings and excellent flight control.
+        </p>
+
+        <p class="copyright">Image credit via Wikimedia Commons.</p>
+      </section>
+
+      <section id="bees_wasps_ants">
+        <h2>🐝 Bees, Wasps, Ants (Hymenoptera)</h2>
+
+        <figure>
+          <img src="bee.jpg"
+               alt="A bee collecting pollen from a flower"
+               width="250"
+               height="180">
+          <figcaption>Bees are essential pollinators in many ecosystems.</figcaption>
+        </figure>
+
+        <p>
+          This group is famous for complex social behavior and pollination.
+        </p>
+
+        <p class="copyright">Image credit via Wikimedia Commons.</p>
+      </section>
+
+      <section id="spiders">
+        <h2>🕷️ Spiders (Araneae)</h2>
+
+        <figure>
+          <img src="spider.jpg"
+               alt="A spider positioned at the center of its web"
+               width="250"
+               height="180">
+          <figcaption>Spiders use silk webs to capture prey.</figcaption>
+        </figure>
+
+        <p>
+          Spiders are arachnids with eight legs and no antennae.
+        </p>
+
+        <p class="copyright">Image credit via Wikimedia Commons.</p>
+      </section>
+    </main>
+  </body>
 </html>
