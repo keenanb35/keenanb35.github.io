@@ -1,95 +1,177 @@
+<!--
+Name: Keenan
+File: index.html
+Date: 05 February 2026
+Description: easy to follow planet data table.
+-->
+
+
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <title>Birdwatching</title>
-
-    <!-- Google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700"
-      rel="stylesheet" />
-
-    <!-- Page styling -->
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Planet data table</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
+    <h1>Planet data table</h1>
 
-    <!-- Header -->
-    <header>
-      <h1>
-        <img src="dove.png" alt="" />
-        Birdwatching
-      </h1>
+    <table>
+      <caption>
+        Data about the planets of our solar system (Planetary facts taken from
+        <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">
+          Nasa's Planetary Fact Sheet - Metric
+        </a>).
+      </caption>
 
-      <!-- Navigation wrapper -->
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Get started</a></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Gear</a></li>
-          <li><a href="#">Forum</a></li>
-        </ul>
-      </nav>
-    </header>
+      <thead>
+        <tr>
+          <th colspan="2">Planet</th>
+          <th>Mass (10<sup>24</sup>kg)</th>
+          <th>Diameter (km)</th>
+          <th>Density (kg/m<sup>3</sup>)</th>
+          <th>Gravity (m/s<sup>2</sup>)</th>
+          <th>Length of day (hours)</th>
+          <th>Distance from Sun (10<sup>6</sup>km)</th>
+          <th>Mean temperature (°C)</th>
+          <th>Number of moons</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
 
-    <!-- Main content -->
-    <main>
+      <tbody>
+        <!-- Terrestrial planets -->
+        <tr>
+          <th rowspan="4" scope="rowgroup">Terrestrial planets</th>
+          <th scope="row">Mercury</th>
+          <td>0.330</td>
+          <td>4,879</td>
+          <td>5427</td>
+          <td>3.7</td>
+          <td>4222.6</td>
+          <td>57.9</td>
+          <td>167</td>
+          <td>0</td>
+          <td>Closest to the Sun</td>
+        </tr>
 
-      <!-- Article -->
-      <article>
-        <h2>Welcome</h2>
+        <tr>
+          <th scope="row">Venus</th>
+          <td>4.87</td>
+          <td>12,104</td>
+          <td>5243</td>
+          <td>8.9</td>
+          <td>2802.0</td>
+          <td>108.2</td>
+          <td>464</td>
+          <td>0</td>
+          <td></td>
+        </tr>
 
-        <p>
-          Welcome to our fake birdwatching site. If this were a real site, it
-          would be the ideal place to come to learn more about birdwatching,
-          whether you are a beginner looking to learn how to get into birding, or
-          an expert wanting to share ideas, tips, and photos with other
-          like-minded people.
-        </p>
+        <tr>
+          <th scope="row">Earth</th>
+          <td>5.97</td>
+          <td>12,756</td>
+          <td>5514</td>
+          <td>9.8</td>
+          <td>24.0</td>
+          <td>149.6</td>
+          <td>15</td>
+          <td>1</td>
+          <td>Our world</td>
+        </tr>
 
-        <p>
-          So don't waste time! Get what you need, then turn off that computer and
-          get out into the great outdoors!
-        </p>
-      </article>
+        <tr>
+          <th scope="row">Mars</th>
+          <td>0.642</td>
+          <td>6,792</td>
+          <td>3933</td>
+          <td>3.7</td>
+          <td>24.7</td>
+          <td>227.9</td>
+          <td>-65</td>
+          <td>2</td>
+          <td>The red planet</td>
+        </tr>
 
-      <!-- Sidebar -->
-      <aside>
-        <h2>Favorite photos</h2>
+        <!-- Jovian planets -->
+        <tr>
+          <th rowspan="4" scope="rowgroup">Jovian planets</th>
+          <th rowspan="2" scope="rowgroup">Gas giants</th>
+          <th scope="row">Jupiter</th>
+          <td>1898</td>
+          <td>142,984</td>
+          <td>1326</td>
+          <td>23.1</td>
+          <td>9.9</td>
+          <td>778.6</td>
+          <td>-110</td>
+          <td>67</td>
+          <td>The largest planet</td>
+        </tr>
 
-        <a href="favorite-bird-1.jpg">
-          <img src="favorite-bird-1_th.jpg" alt="A small bird sitting on a branch" />
-        </a>
+        <tr>
+          <th scope="row">Saturn</th>
+          <td>568</td>
+          <td>120,536</td>
+          <td>687</td>
+          <td>9.0</td>
+          <td>10.7</td>
+          <td>1433.5</td>
+          <td>-140</td>
+          <td>62</td>
+          <td></td>
+        </tr>
 
-        <a href="favorite-bird-2.jpg">
-          <img src="favorite-bird-2_th.jpg" alt="A colorful bird with bright feathers" />
-        </a>
+        <tr>
+          <th rowspan="2" scope="rowgroup">Ice giants</th>
+          <th scope="row">Uranus</th>
+          <td>86.8</td>
+          <td>51,118</td>
+          <td>1271</td>
+          <td>8.7</td>
+          <td>17.2</td>
+          <td>2872.5</td>
+          <td>-195</td>
+          <td>27</td>
+          <td></td>
+        </tr>
 
-        <a href="favorite-bird-3.jpg">
-          <img src="favorite-bird-3_th.jpg" alt="A bird flying across the sky" />
-        </a>
+        <tr>
+          <th scope="row">Neptune</th>
+          <td>102</td>
+          <td>49,528</td>
+          <td>1638</td>
+          <td>11.0</td>
+          <td>16.1</td>
+          <td>4495.1</td>
+          <td>-200</td>
+          <td>14</td>
+          <td></td>
+        </tr>
 
-        <a href="favorite-bird-4.jpg">
-          <img src="favorite-bird-4_th.jpg" alt="A bird standing near water" />
-        </a>
-      </aside>
-
-    </main>
-
-    <!-- Footer -->
-    <footer>
-      <p>
-        This fake website example is CC0 — any part of this code may be reused
-        in any way you wish. Original example written by Chris Mills, 2016.
-      </p>
-
-      <p>
-        <a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a>
-        by Lorc.
-      </p>
-    </footer>
-
+        <!-- Dwarf planets -->
+        <tr>
+          <th scope="rowgroup">Dwarf planets*</th>
+          <th scope="row">Pluto</th>
+          <td>0.0146</td>
+          <td>2,370</td>
+          <td>2095</td>
+          <td>0.7</td>
+          <td>153.3</td>
+          <td>5906.4</td>
+          <td>-225</td>
+          <td>5</td>
+          <td>
+            Declassified as a planet in 2006, but this
+            <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">
+              remains controversial
+            </a>.
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
