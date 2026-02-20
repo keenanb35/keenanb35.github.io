@@ -1,123 +1,44 @@
-/* Base font and body */
-body {
-  font: 1.1em / 1.5 system-ui, sans-serif;
-  margin: 0 auto;
-  width: 90%;
-  min-width: 600px;
-  max-width: 1200px;
-  background: #fff;
-  color: #000;
+html {
+  background-color: white;
 }
 
-/* Headings */
-h1, h2 {
-  text-align: center;
-  margin: 20px 0;
+body {
+  font: 1.2em / 1.5 system-ui;
+  padding: 20px;
+  width: 500px;
+  background-color: #efefef;
+  margin: 0 auto;
+}
+
+h1 {
+  color: darkslategray;
+  border-bottom: 10px dotted purple;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-style: italic;
+  font-size: 1.5rem;
 }
 
-/* Navigation */
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
+.job-title {
+  color: darkslategray;
+  font-weight: bold;
 }
 
-nav li {
-  margin: 5px 15px;
+ul {
+  background-color: white;
+  border: 5px solid purple;
+  padding: 30px;
+  border-radius: 20px;
 }
 
-nav a {
+a {
+  color: green;
+}
+
+a:hover,
+a:focus {
+  color: darkgreen;
   text-decoration: none;
-  color: red;
-  font-size: 1.2em;
-  transition: 0.2s;
-}
-
-nav a:hover,
-nav a:focus {
-  text-decoration: underline;
-}
-
-/* Header section layout */
-header section {
-  display: grid;
-  grid-template-areas:
-    "heading heading"
-    "text video";
-  grid-template-columns: 1fr 2fr;
-  gap: 20px;
-  align-items: start;
-  padding: 20px 0;
-}
-
-header h1 {
-  grid-area: heading;
-}
-
-header p {
-  grid-area: text;
-  margin: 0;
-}
-
-header video {
-  grid-area: video;
-  width: 100%;
-  border: 1px solid #333;
-  border-radius: 8px;
-  max-height: 360px;
-  object-fit: cover;
-}
-
-/* Figures for sections */
-figure {
-  float: right;
-  margin: 0 0 10px 20px;
-  padding: 10px;
-  background: orange;
-  border: 1px solid black;
-  text-align: center;
-  max-width: 260px;
-}
-
-figure img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-figcaption {
-  font-size: 0.85em;
-  color: #000;
-  margin-top: 5px;
-}
-
-/* Section layout */
-section {
-  clear: both;
-  margin: 40px 0;
-}
-
-/* Responsive adjustments */
-@media (max-width: 800px) {
-  header section {
-    grid-template-areas:
-      "heading"
-      "video"
-      "text";
-    grid-template-columns: 1fr;
-  }
-
-  figure {
-    float: none;
-    margin: 10px auto;
-    width: 90%;
-  }
 }
